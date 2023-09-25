@@ -6,6 +6,7 @@
 }
 
 .container {
+  
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(135deg, #cf9aff, #95c0ff);
@@ -41,6 +42,7 @@
   cursor: pointer;
 }
 .inputbox {
+  display: flex;
   position: relative;
   width: 100%;
   max-width: 500px;
@@ -48,7 +50,7 @@
   background: #fff;
   color: #333;
   padding: 20px;
-  margin: 20px 0;
+  margin:0;
   outline: none;
   border-radius: 5px;
 }
@@ -59,4 +61,8 @@
   bottom: 15px;
   right: 15px;
   cursor: pointer;
+}
+
+.notes-container p{
+  font-size: 25px;
 }
